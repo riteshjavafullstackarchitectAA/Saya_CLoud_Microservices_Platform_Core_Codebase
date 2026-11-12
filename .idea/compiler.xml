@@ -3,7 +3,7 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Annotation profile for RightSayaUserMicroservice" enabled="true">
+      <profile name="Annotation profile for RightSaya_Discovery_Server" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -17,6 +17,7 @@
         <module name="kafka-producer-application" />
         <module name="user-microservice" />
         <module name="cart-application" />
+        <module name="discovery-server" />
         <module name="platform-testing-application" />
         <module name="eureka-server-application" />
         <module name="payment-application" />
@@ -32,6 +33,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-gateway" options="-parameters" />
       <module name="cart-application" options="-parameters" />
+      <module name="discovery-server" options="-parameters" />
       <module name="eureka-server-application" options="-parameters" />
       <module name="functional-programs" options="-parameters" />
       <module name="kafka-consumer-next-application" options="-parameters" />
