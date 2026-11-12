@@ -1,7 +1,7 @@
-package com.rightsaya.microservices.api.gateway;
+package com.rightsaya.microservices.discovery.server;
 
 //@SpringBootTest
-class RightSayaApiGatewayApplicationTests {
+class RightSayaDiscoveryServerApplicationTests {
 
     //@Test
     void contextLoads() {

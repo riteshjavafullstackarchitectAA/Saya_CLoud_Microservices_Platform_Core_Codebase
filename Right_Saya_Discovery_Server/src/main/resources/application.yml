@@ -1,6 +1,21 @@
 server:
-  port: 8089
+  port: 8761
 
 spring:
   application:
     name: RightSaya_Discovery_Server
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  server:
+    enable-self-preservation: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
